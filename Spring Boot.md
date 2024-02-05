@@ -15,7 +15,7 @@ It's advisable to rely on dependency injection via the constructor whenever poss
 5. **Transparency:** Dependencies are clearly visible to all clients of the class, enhancing code transparency and maintainability.
 **Example**
 
-1. <span style="color:red; font-weight:900">Avoid</span>
+<span style="color:red; font-weight:900">Avoid</span>
 ``` java
 @Component
 public class Car {
@@ -29,7 +29,7 @@ private Transmission transmission;
 }
 ```
 
-2. <span style="color:green; font-weight:900">Prefer</span>
+<span style="color:green; font-weight:900">Prefer</span>
 ``` java
 @Component
 public class Car {
